@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energía Eólica y Energías Renovables</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 
+            1.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex; /* Utiliza flexbox para alinear elementos en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.footer-content p {
+    margin: 0; /* Elimina el margen del párrafo para alinear correctamente */
+    margin-right: 10px; /* Espacio entre el texto y la imagen */
+}
+.footer-content img{
+    border-radius: 30%;
+    border: 2px solid #000000;
+}
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #000000; /* Título en color */
+        }
+        h2 {
+            color: #20b2aa;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            background-color: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .section img {
+            width: 100%; /* Tamaño ajustado de los íconos */
+            height: auto;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+        .social-menu {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            background-color: #333;
+            padding: 0.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+        .social-menu a {
+            display: block;
+            color: white;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        .social-menu img {
+            width: 25px; /* Tamaño ajustable */
+            height: auto;
+            margin: 0.3rem; /* Espacio entre íconos */
+            
+        }
+
+        .social-menu img:hover {
+          transform: scale(1.2); /* Zoom del 20% */
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Energía Eólica y Energías Renovables</h1>
+    </header>
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#eolica">Energía Eólica</a>
+        <a href="#solar">Energia Solar</a>
+        <a href="#geotermica">Energia Geotermica</a>
+    </nav>
+    <div class="social-menu">
+        <a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook"></a>
+        <a href="https://instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram"></a>
+        <a href="https://twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="Twitter"></a>
+    </div>
+    
+    <main class="container">
+        
+        <div id="introduccion" class="section">
+            <h2>Introducción a las Energías Renovables</h2>
+            <p>Las energías renovables son fuentes de energía que se obtienen de recursos naturales inagotables, como el sol, el viento, el agua y la biomasa. Estas energías son fundamentales para reducir la dependencia de los combustibles fósiles y mitigar el cambio climático.</p>
+            <img src="renovables.jpg" alt="Imagen de energías renovables">
+        </div>
+        <div id="eolica" class="section">
+            <h2>¿Qué es la Energía Eólica?</h2>
+            <p>La energía eólica es la energía que se obtiene a partir del viento. Esta energía se utiliza para generar electricidad a través de aerogeneradores, que convierten la energía cinética del viento en energía eléctrica.</p>
+            <img src="eolica.jpg" alt="Imagen de energía eólica">
+        </div>
+        <div id="beneficios" class="section">
+            <h2>Beneficios de la Energía Eólica</h2>
+            <p>La energía eólica tiene múltiples beneficios, entre ellos:</p>
+            <ul>
+                <li>Es una fuente de energía limpia y renovable.</li>
+                <li>No produce emisiones de gases de efecto invernadero.</li>
+                <li>Reduce la dependencia de los combustibles fósiles.</li>
+                <li>Genera empleo en la construcción y mantenimiento de parques eólicos.</li>
+            </ul>
+            <img src="eolica1.jpeg" alt="Imagen de beneficios de la energía eólica">
+        </div>
+        <div id="conclusion" class="section">
+            <h2>Conclusión</h2>
+            <p>La energía eólica y otras energías renovables son esenciales para construir un futuro sostenible. Invertir en estas tecnologías no solo ayuda a proteger el medio ambiente, sino que también promueve el desarrollo económico y social.</p>
+            <img src="eolica2.jpg" alt="Imagen de conclusión sobre energías renovables">
+        </div>
+        
+        <div id="solar" class="section">
+            <h2>¿Qué es la Energía Solar?</h2>
+            <p>La energía solar es la energía que se obtiene del sol en forma de radiación electromagnética. Esta energía se puede aprovechar mediante diversas tecnologías para generar electricidad (energía solar fotovoltaica) o calor (energía solar térmica).</p>
+            <img src="solar.jpg" alt="Imagen de energía eólica">
+        </div>
+        <div id="beneficios" class="section">
+            <h2>Aspectos de la Energía Solar</h2>
+            <p>La energía Solar tiene múltiples aspectos, entre ellos:</p>
+            <ul>
+                <li>Generación de Electricidad: Utiliza paneles solares (celdas fotovoltaicas) para convertir la luz solar directamente en electricidad mediante el efecto fotovoltaico.</li>
+                <li>Calentamiento de Agua: Los colectores solares térmicos captan el calor del sol para calentar agua que se utiliza en aplicaciones domésticas o industriales.</li>
+                <li>Aplicaciones Diversas: La energía solar también se utiliza para la iluminación solar, la refrigeración solar y otras aplicaciones que aprovechan directamente la energía solar.</li>
+                <li>Impacto Ambiental: Contribuye a la reducción de la dependencia de los combustibles fósiles y ayuda a mitigar el cambio climático al reducir las emisiones de gases de efecto invernadero.</li>
+            </ul>
+            <img src="solar1.jpg" alt="Imagen de beneficios de la energía eólica">
+        </div>
+        <div id="conclusion" class="section">
+            <h2>Conclusión</h2>
+            <p>La energía solar juega un papel fundamental en la transición hacia un sistema energético más sostenible y se considera una de las tecnologías clave para el futuro energético debido a su abundancia y beneficios ambientales. </p>
+            <img src="solar2.jpg" alt="Imagen de conclusión sobre energías renovables">
+        </div>
+
+        <div id="geotermica" class="section">
+            <h2>¿Qué es la Energía Geotermica?</h2>
+            <p>La energía geotérmica es aquella que se obtiene del calor almacenado bajo la superficie terrestre. Este calor proviene del núcleo caliente de la Tierra, donde las temperaturas pueden ser extremadamente altas. Esta forma de energía se aprovecha principalmente para generar electricidad y proporcionar calefacción directa.</p>
+            <img src="geotermica.jpg" alt="Imagen de energía eólica">
+        </div>
+        <div id="beneficios" class="section">
+            <h2>Caracteristicas de la Energía Geotermica</h2>
+            <p>La energía Geotermica tiene múltiples caracteristicas, entre ellos:</p>
+            <ul>
+                <li>Origen y Recursos: Proviene del calor natural del interior de la Tierra, que es generado por la desintegración de elementos radiactivos y el calor residual de la formación planetaria.</li>
+                <li>Tecnologías de Explotación: Se utiliza principalmente mediante plantas geotérmicas que aprovechan el calor del subsuelo para generar electricidad. Hay diferentes tecnologías como los ciclos binarios y los ciclos de vapor seco y flash.</li>
+                <li>Aplicaciones Directas: Además de la generación de electricidad, la energía geotérmica se utiliza para la calefacción y refrigeración directa de edificios (sistemas de bombas de calor geotérmicas).</li>
+                <li>Sostenibilidad: Es una fuente de energía renovable y sostenible, ya que el calor geotérmico es virtualmente inagotable a escalas humanas y no emite gases de efecto invernadero significativos durante su operación.</li>
+            </ul>
+            <img src="geotermica1.jpg" alt="Imagen de beneficios de la energía eólica">
+        </div>
+        <div id="conclusion" class="section">
+            <h2>Conclusión</h2>
+            <p>La energía geotérmica representa una opción interesante para diversificar la matriz energética global, reducir las emisiones de carbono y promover un desarrollo energético más sostenible.</p>
+            <img src="geotermica2.jpg" alt="Imagen de conclusión sobre energías renovables">
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Impacto ambiental de las energías. 5º D.U . ISFS . <strong>R.S599</strong></p>
+            <img src="isfs.jpg" width="60" alt="ISFS">
+        </div>
+    </footer>
+    
+</body>
+</html>
